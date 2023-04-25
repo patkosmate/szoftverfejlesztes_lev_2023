@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="hu.unideb.inf.FXMLStudentsSceneController">
+   <children>
+      <Pane layoutX="41.0" layoutY="14.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #292c35;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text fill="WHITE" layoutX="25.0" layoutY="58.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Felhasználónév" textAlignment="CENTER" wrappingWidth="230.13671875">
+               <font>
+                  <Font name="Arial Black" size="26.0" />
+               </font>
+            </Text>
+            <Text fill="WHITE" layoutX="25.0" layoutY="127.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Jelszó" textAlignment="CENTER" wrappingWidth="230.13671875">
+               <font>
+                  <Font name="Arial Black" size="26.0" />
+               </font>
+            </Text>
+            <Button layoutX="43.0" layoutY="290.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="237.0" style="-fx-background-color: 0; -fx-border-color: #FFFFFF; -fx-border-style: solid inside;" text="Mégsem" textFill="RED">
+               <font>
+                  <Font name="Arial Black" size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="330.0" layoutY="290.0" mnemonicParsing="false" onAction="#handleButtonPushed" prefHeight="70.0" prefWidth="237.0" style="-fx-background-color: 0; -fx-border-color: #FFFFFF; -fx-border-style: solid inside;" text="Létrehoz" textFill="WHITE">
+               <font>
+                  <Font name="Arial Black" size="22.0" />
+               </font>
+            </Button>
+            <PasswordField layoutX="315.0" layoutY="98.0" prefHeight="39.0" prefWidth="230.0" />
+            <TextField layoutX="315.0" layoutY="28.0" prefHeight="39.0" prefWidth="230.0" />
+            <Text fill="WHITE" layoutX="25.0" layoutY="210.0" strokeType="OUTSIDE" strokeWidth="0.0" text="E-mail cím" textAlignment="CENTER" wrappingWidth="230.13671875">
+               <font>
+                  <Font name="Arial Black" size="26.0" />
+               </font>
+            </Text>
+            <TextField layoutX="315.0" layoutY="181.0" prefHeight="39.0" prefWidth="230.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
